@@ -1,0 +1,173 @@
+.App {
+ 
+  text-align: center;
+  box-sizing: border-box;
+  background-color:rgb(126, 120, 117);
+}
+.App-header
+{
+  background-image: url("C:\Users\jadha\amplify-react\src\images\wouter.jpg");
+}
+
+h3{
+  height: 40px;
+  text-align: center;
+  line-height: 50px;
+  font-family: monospace;
+font-size: 30px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+  #nav {
+
+    
+
+    border-bottom: 2px;
+    background-color: #c0c0c0;
+    text-align: center;
+    padding-left: 90px;
+    
+  }
+  ul li{
+    text-decoration: none;
+    list-style-type: none;
+    
+    float: left;
+    display: inline-block;
+    
+    line-height: 70px;
+    
+    padding-right: 50px;
+  
+    background-color:lightslategrey;
+    
+
+  }
+  ul
+  {
+    display: block;
+    background-color:lightslategrey;
+    border: 2px;
+    position: absolute;
+    margin-left: 200px;
+
+  }
+
+#midShell{
+  padding-top: 50px;
+  height: 600px;
+  background-color: aliceblue;
+
+}
+#bodyData
+{
+padding-top: 130px;
+font-family: monospace;
+font-size: 15px;
+}
+ul li a 
+{
+  width: 150px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+color: lightcyan;
+text-align: center;
+border-radius: 10px;
+font-size: 25px;
+font-family: monospace;
+
+}
+ul li a:hover
+{
+  text-transform: uppercase;
+  background-color: mediumorchid;
+}
+ul li ul{
+
+  background: #000033;
+}
+ul li ul li{
+  float:none;
+}
+ul li ul{
+  display:none;
+}
+ul li :hover ul{
+  display: block;
+}
+#submitClaim
+{
+  background: peachpuff;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+input[type="text"],textarea {
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 4px 0px 18px 1px;
+  color: black;
+  padding: 10px 38px;
+  border: none;
+  border-radius: 2px;
+  width: 68%;
+  font-family: monospace;
+}
+input[type="submit"] {
+  color: white;
+  background: #d52685;
+  border: none;
+  padding: 14px 50px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 2px;
+  margin: 17px;
+    font-family: monospace;
+    cursor:pointer;
+    text-transform:uppercase;
+    transition:0.5s all;
+     
+}
+input[type='submit']:hover
+{
+  
+    background: #d9edf7;
+    color: black;
+      transition:0.5s all;
+}
+#toph
+{
+  font-family: monospace;
+  font-size: 30px;
+}
+#bottomShell
+{
+  font-family: monospace;
+  font-size: 20px;
+}
